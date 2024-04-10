@@ -64,6 +64,8 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
   + 5.1 - Crie um arquivo um mapa do site com: [XML - Site Maps](https://www.xml-sitemaps.com/)
   + 5.2 - Consulte mais informações sobre os Cookies em: [Cookie Search](https://cookiesearch.org/)
 
+<hr>
+
 <h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
 <a name="logo" href="https://www.privacysandbox.com"><img align="center" src="https://github.com/GoogleChromeLabs/ps-analysis-tool/assets/506089/62ae89de-430a-4a5b-b5bf-2a1b2f86c712" alt="Privacy Sandbox" style="width:30%;height:100%"/></a>
 </h1>
