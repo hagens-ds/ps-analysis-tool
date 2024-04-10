@@ -61,14 +61,17 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
   ```
 
 + 5 - Ferramentas complementares:
-  + 5.1 - Crie um arquivo um mapa do site com: [XML - Site Maps](https://www.xml-sitemaps.com/)
+  + 5.1 - Crie um arquivo do mapa do site com: [XML - Site Maps](https://www.xml-sitemaps.com/)
   + 5.2 - Consulte mais informações sobre os Cookies em: [Cookie Search](https://cookiesearch.org/)
+
++ 6 - Acesse a [Wiki](https://github.com/GoogleChromeLabs/ps-analysis-tool/wiki/PSAT-Command-Line-Interface#getting-started-with-psat-cli) oficial do projeto
 
 <hr>
 
 <h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
 <a name="logo" href="https://www.privacysandbox.com"><img align="center" src="https://github.com/GoogleChromeLabs/ps-analysis-tool/assets/506089/62ae89de-430a-4a5b-b5bf-2a1b2f86c712" alt="Privacy Sandbox" style="width:30%;height:100%"/></a>
 </h1>
+
 # Privacy Sandbox
 
 [Privacy Sandbox](https://privacysandbox.com/) is a multi-year [initiative by Google](https://developers.google.com/privacy-sandbox) for building a more private web by defining a set of building blocks (i.e. proposed APIs) enabling [a new privacy model for the web](https://github.com/michaelkleber/privacy-model). Privacy Sandbox encompasses replacing functionality powered by third-party cookies with privacy-preserving alternatives, deprecating third-party cookies, and ensuring developers have a well-lit path to the new capabilities of the platform, and avoid pursuing tracking via other means.
