@@ -57,7 +57,7 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
   + 4.4 - Analise um arquivo XML do mapa do site:
   
   ```
-    npm run cli -- -c ./examples/hagens_sitemap.xml
+    npm run cli -- -p ./examples/hagens_sitemap.xml
   ```
 
 + 5 - Ferramentas complementares:
