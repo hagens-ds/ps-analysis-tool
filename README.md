@@ -1,11 +1,72 @@
-<h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
-<a name="logo" href="https://www.privacysandbox.com"><img align="center" src="https://github.com/GoogleChromeLabs/ps-analysis-tool/assets/506089/62ae89de-430a-4a5b-b5bf-2a1b2f86c712" alt="Privacy Sandbox" style="width:30%;height:100%"/></a>
+<h1 align="center">
+  <a
+    target="_blank"
+    href="https://hagens.com.br/"
+  >
+    <img
+      align="center"
+      alt="Hagens banner"
+      src="https://github.com/hagens-ds/.github/blob/main/profile/hagens_banner_cover.jpeg?raw=true"
+    />
+  </a>
 </h1>
 
 # Privacy Sandbox - Hagens
 
 O objetivo deste repositório é facilitar a utilização da ferramenta PSAT-cli. Para isso, a pasta "examples" contém arquivos que auxiliam na jornada de configuração, com exemplos práticos e instruções detalhadas.
 
+# Interface de linha de comando do PSAT - Iniciando na ferramenta
+
+Para utilizar a ferramenta é necessário seguir os seguintes passos:
+
++ 1 - Clone este repositório
+
++ 2 - Você deve ter instalado na sua máquina as seguintes ferramentas:
+  + 2.1 - [Node.js](https://nodejs.org/en/download/current)
+  + 2.2 - [VS Code](https://code.visualstudio.com/)
+
++ 3 - Abra o terminal e executar o comando:
+
+  ```
+    npm install
+  ```
+
+  ```
+    npm run cli:build
+  ```
+
++ 4 - Comandos para usar a ferramenta:
+  + 4.1 - Analise uma URL específica com:
+
+  ```
+    npm run cli -- -u https://bbc.com
+  ```
+
+  + 4.2 - Analise uma mapa do site em XML:
+
+  ```
+    npm run cli -- -s https://example.com/sitemap_index.xml
+  ```
+
+  + 4.3 - Analise URLs a partir de um arquivo CSV:
+
+  ```
+    npm run cli -- -c ./examples/urls_csv_psat.csv
+  ```
+
+  + 4.4 - Analise um arquivo XML do mapa do site:
+  
+  ```
+    npm run cli -- -c ./examples/hagens_sitemap.xml
+  ```
+
++ 5 - Ferramentas complementares:
+  + 5.1 - Crie um arquivo um mapa do site com: [XML - Site Maps](https://www.xml-sitemaps.com/)
+  + 5.2 - Consulte mais informações sobre os Cookies em: [Cookie Search](https://cookiesearch.org/)
+
+<h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
+<a name="logo" href="https://www.privacysandbox.com"><img align="center" src="https://github.com/GoogleChromeLabs/ps-analysis-tool/assets/506089/62ae89de-430a-4a5b-b5bf-2a1b2f86c712" alt="Privacy Sandbox" style="width:30%;height:100%"/></a>
+</h1>
 # Privacy Sandbox
 
 [Privacy Sandbox](https://privacysandbox.com/) is a multi-year [initiative by Google](https://developers.google.com/privacy-sandbox) for building a more private web by defining a set of building blocks (i.e. proposed APIs) enabling [a new privacy model for the web](https://github.com/michaelkleber/privacy-model). Privacy Sandbox encompasses replacing functionality powered by third-party cookies with privacy-preserving alternatives, deprecating third-party cookies, and ensuring developers have a well-lit path to the new capabilities of the platform, and avoid pursuing tracking via other means.
