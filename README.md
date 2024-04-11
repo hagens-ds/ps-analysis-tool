@@ -25,7 +25,7 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
   + 2.1 - [Node.js](https://nodejs.org/en/download/current)
   + 2.2 - [VS Code](https://code.visualstudio.com/)
 
-+ 3 - Abra o terminal e executar o comando:
++ 3 - Abra o terminal e execute os comandos:
 
   ```
     npm install
