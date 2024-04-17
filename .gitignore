@@ -34,3 +34,6 @@ packages/*/dist-types
 #puppeteer artifact
 tmp
 
+#Project folders
+project_input
+project_output

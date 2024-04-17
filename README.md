@@ -66,6 +66,21 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
 
 + 6 - Acesse a [Wiki](https://github.com/GoogleChromeLabs/ps-analysis-tool/wiki/PSAT-Command-Line-Interface#getting-started-with-psat-cli) oficial do projeto
 
++ 7 - Caso de uso - Execução de um lote de mapas do site:
+  + Execute a etapa 3;
+  + Execute o comando:
+
+  ```
+    ./start.sh
+  ```
+
+  + Siga as intruções exibidas no terminal;
+  + Execute o comando:
+
+  ```
+    ./auto-batch-site-map.sh
+  ```
+
 <hr>
 
 <h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
