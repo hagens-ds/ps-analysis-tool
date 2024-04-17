@@ -67,19 +67,21 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
 + 6 - Acesse a [Wiki](https://github.com/GoogleChromeLabs/ps-analysis-tool/wiki/PSAT-Command-Line-Interface#getting-started-with-psat-cli) oficial do projeto
 
 + 7 - Caso de uso - Execução de um lote de mapas do site:
-  + Execute a etapa 3;
-  + Execute o comando:
+  + 1 - Execute a etapa 3 (uma única vez);
+  + 2 - Execute o comando:
 
   ```
     ./start.sh
   ```
 
-  + Siga as intruções exibidas no terminal;
-  + Execute o comando:
+  + 3 - Siga as intruções exibidas no terminal;
+  + 4 - Execute o comando:
 
   ```
     ./auto-batch-site-map.sh
   ```
+
+  + 5 - Para executar outro projeto em lote inicie a partir da etapa 7.2;
 
 <hr>
 
