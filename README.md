@@ -66,7 +66,7 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
 
 + 6 - Acesse a [Wiki](https://github.com/GoogleChromeLabs/ps-analysis-tool/wiki/PSAT-Command-Line-Interface#getting-started-with-psat-cli) oficial do projeto
 
-+ 7 - Caso de uso - Execução de um lote de mapas do site:
++ 7 - Caso de uso: execução de um lote de mapas do site:
   + 1 - Execute a etapa 3 (uma única vez);
   + 2 - Execute o comando:
 
@@ -82,7 +82,17 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
   ```
 
   + 5 - Para executar outro projeto em lote inicie a partir da etapa 7.2;
+  
++ 8 - Caso de uso: execução da extensão PSAT + Chrome Canary em SPA:
+  + 1 - [Baixe o Chrome Canary](https://www.google.com/intl/pt-BR/chrome/canary/);
+  + 2 - [Instale a extensão PSAT no Canary](https://chromewebstore.google.com/detail/privacy-sandbox-analysis/ehbnpceebmgpanbbfckhoefhdibijkef);
+  + 3 - Abra o navegador e ative a extensão PSAT;
+  + 4 - Abra o fluxo que será testado, por exemplo, [Ficha USJT](https://lp-ead.usjt.br/inscreva-se);
+  + 5 - Para cada etapa do fluxo é necessário realizar o download dos cookies que foram rastreados pela ferramenta, como é mostrado na Imagem 1;
+  + 6 - Ajuste o nome do arquivo para identificar a etapa no qual ele foi extraído;
 
+<a name="logo" href="https://lp-ead.usjt.br/inscreva-se"><img align="center" src="./examples/img/usjt/lp-ead-usjt.png" alt="USJT Form" style="width:100%;height:100%"/></a>
+> **Imagem - 1:** Extensão PSAT no Chrome Canary sendo utilizado em uma aplicação SPA. **Fonte:** Autoria própria.
 <hr>
 
 <h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
