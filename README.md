@@ -67,7 +67,7 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
 + 6 - Acesse a [Wiki](https://github.com/GoogleChromeLabs/ps-analysis-tool/wiki/PSAT-Command-Line-Interface#getting-started-with-psat-cli) oficial do projeto
 
 + 7 - Caso de uso: execução de um lote de mapas do site em Windows:
-  + 1 - Execute a etapa 3 (uma única vez);
+  + 1 - Execute as etapas 1,2 e 3 (uma única vez);
   + 2 - Abra o prompt e execute o comando:
 
   ```
