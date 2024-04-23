@@ -66,22 +66,58 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
 
 + 6 - Acesse a [Wiki](https://github.com/GoogleChromeLabs/ps-analysis-tool/wiki/PSAT-Command-Line-Interface#getting-started-with-psat-cli) oficial do projeto
 
-+ 7 - Caso de uso: execução de um lote de mapas do site:
++ 7 - Caso de uso: execução de um lote de mapas do site em Windows:
   + 1 - Execute a etapa 3 (uma única vez);
-  + 2 - Execute o comando:
+  + 2 - Abra o prompt e execute o comando:
+
+  ```
+    wsl --install
+  ```
+
+  + 3 - Em seguida execute:
+
+  ```
+    wsl --install -d Ubuntu
+  ```
+  
+  + 4 - Abra o projeto no VS Code;
+
+  + 5 - Abra o terminal no VS Code com o comando:
+
+  ```
+    Ctrl + Shift + '
+  ```
+
+  + 6 - No terminal digite o comando:
+
+  ```
+    wsl
+  ```
+
+  + 7 - Digite os comandos:
+
+  ```
+    sudo apt update
+    apt install python3-pip
+    pip install -r ./hagens_psat/requirements.txt
+  ```
+
+  + 8 - Execute o comando:
 
   ```
     ./start.sh
   ```
 
-  + 3 - Siga as intruções exibidas no terminal;
-  + 4 - Execute o comando:
+  + 9 - Siga as intruções exibidas no terminal;
+  + 10 - Execute o comando:
 
   ```
     ./auto-batch-site-map.sh
   ```
 
-  + 5 - Para executar outro projeto em lote inicie a partir da etapa 7.2;
+  + 11 - Para uma nova execução execute a partir da etapa 7.8:
+
++ 5 - Para executar outro projeto em lote inicie a partir da etapa 7.2;
   
 + 8 - Caso de uso: execução da extensão PSAT + Chrome Canary em SPA:
   + 1 - [Baixe o Chrome Canary](https://www.google.com/intl/pt-BR/chrome/canary/);

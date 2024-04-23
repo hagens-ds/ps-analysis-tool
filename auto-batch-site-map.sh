@@ -34,3 +34,9 @@ for file in $siteMapFiles; do
   fileName=$(basename "$file" .xml)
   npm run cli -- -np -p "$file" -d ./project_output/"$projectName"/reports/"$fileName"/
 done
+
+cd "./hagens_psat"
+# sudo apt install pip
+# sudo apt-get install python3-pip
+# pip install -r requirements.txt
+python3 process-csv-files.py "$projectName"
