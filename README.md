@@ -67,7 +67,7 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
 + 6 - Acesse a [Wiki](https://github.com/GoogleChromeLabs/ps-analysis-tool/wiki/PSAT-Command-Line-Interface#getting-started-with-psat-cli) oficial do projeto
 
 + 7 - Caso de uso: execução de um lote de mapas do site em Windows:
-  + 1 - Execute as etapas 1,2 e 3 (uma única vez);
+  + 1 - Execute as etapas 1, 2 e 3 (uma única vez);
   + 2 - Abra o prompt e execute o comando:
 
   ```
@@ -116,8 +116,6 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
   ```
 
   + 11 - Para uma nova execução execute a partir da etapa 7.8:
-
-+ 5 - Para executar outro projeto em lote inicie a partir da etapa 7.2;
   
 + 8 - Caso de uso: execução da extensão PSAT + Chrome Canary em SPA:
   + 1 - [Baixe o Chrome Canary](https://www.google.com/intl/pt-BR/chrome/canary/);
