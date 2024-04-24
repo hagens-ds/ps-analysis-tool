@@ -28,36 +28,36 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
 + 3 - Abra o terminal no diretório do projeto e execute os comandos:
 
   ```
-    npm install
+  npm install
   ```
 
   ```
-    npm run cli:build
+  npm run cli:build
   ```
 
 + 4 - Comandos para usar a ferramenta:
   + 4.1 - Analise uma URL específica com:
 
   ```
-    npm run cli -- -u https://bbc.com
+  npm run cli -- -u https://bbc.com
   ```
 
   + 4.2 - Analise uma mapa do site em XML:
 
   ```
-    npm run cli -- -s https://example.com/sitemap_index.xml
+  npm run cli -- -s https://example.com/sitemap_index.xml
   ```
 
   + 4.3 - Analise URLs a partir de um arquivo CSV:
 
   ```
-    npm run cli -- -c ./examples/urls_csv_psat.csv
+  npm run cli -- -c ./examples/urls_csv_psat.csv
   ```
 
   + 4.4 - Analise um arquivo XML do mapa do site:
   
   ```
-    npm run cli -- -p ./examples/hagens_sitemap.xml
+  npm run cli -- -p ./examples/hagens_sitemap.xml
   ```
 
 + 5 - Ferramentas complementares:
@@ -71,13 +71,13 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
   + 2 - Abra o prompt e execute o comando:
 
   ```
-    wsl --install
+  wsl --install
   ```
 
   + 3 - Em seguida execute:
 
   ```
-    wsl --install -d Ubuntu
+  wsl --install -d Ubuntu
   ```
   
   + 4 - Abra o projeto no VS Code;
@@ -85,27 +85,27 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
   + 5 - Abra o terminal no VS Code com o comando:
 
   ```
-    Ctrl + Shift + '
+  Ctrl + Shift + '
   ```
 
   + 6 - No terminal digite o comando:
 
   ```
-    wsl
+  wsl
   ```
 
   + 7 - Digite os comandos:
 
   ```
-    sudo apt update
-    apt install python3-pip
-    pip install -r ./hagens_psat/requirements.txt
+  sudo apt update
+  apt install python3-pip
+  pip install -r ./hagens_psat/requirements.txt
   ```
 
   + 8 - Execute o comando:
 
   ```
-    ./start.sh
+  ./start.sh
   ```
 
   + 9 - Siga as intruções exibidas no terminal;
