@@ -112,7 +112,7 @@ Para utilizar a ferramenta é necessário seguir os seguintes passos:
   + 10 - Execute o comando:
 
   ```
-    ./auto-batch-site-map.sh
+  ./auto-batch-site-map.sh
   ```
 
   + 11 - Para uma nova execução execute a partir da etapa 7.8:
