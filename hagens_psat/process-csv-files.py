@@ -6,7 +6,7 @@ import sys
 def list_all_files(dir, pattern, dfs_cookies_issues, dfs_cookies):
     for current_folder, subfolder, files in os.walk(dir):
         for file in files:
-            if file.endswith('cookies-issues.csv'):
+            if file.endswith('cookie-issues.csv'):
               file_path = os.path.join(current_folder, file).replace("\\", "/")
               try:
                 df = pd.read_csv(file_path)
